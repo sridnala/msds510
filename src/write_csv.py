@@ -21,6 +21,7 @@ def verifyArguments():
             print("Invalid Number of Arguments")
             return False
     except:
+        print("Exception in verifyArguments function")
         return False
 
 

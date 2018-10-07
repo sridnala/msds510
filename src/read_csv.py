@@ -6,7 +6,7 @@ def verifyArguments():
         argumentsCount = len(sys.argv)
         if argumentsCount == 2:  # To verify number of command line arguments
                 inputFileName = sys.argv[1].split("/")[-1]
-                if inputFileName:  # To verify file names are not empty
+                if inputFileName:  # To verify file name is not empty
                     return True
                 else:
                     print("Invalid File Names")
